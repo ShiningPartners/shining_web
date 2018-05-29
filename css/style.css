@@ -10,6 +10,8 @@ body {
     margin: 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*底部資訊列*/
@@ -38,7 +40,8 @@ body {
 /*幻燈片*/
 
 .header-carousel-item {
-    min-height: 300px;
+    min-height: 200px;
+    min-width: 150px;
 }
 
 .carousel-text {
