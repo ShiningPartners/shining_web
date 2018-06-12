@@ -603,10 +603,10 @@ $arr = mysqli_fetch_array($res);
                 <!--產品細項區塊開始-->
                 <div class="col-lg-9 col-md-12">
                     <div class="card-body">
-                        <?php echo $arr['id']?>
-                        <?php echo $arr['proudct_name']?>
-                        <?php echo $arr['proudct_desc']?>
-                        <?php echo $arr['proudct_table_desc']?>
+                        <?php echo $arr['id'] ?>
+                        <?php echo $arr['proudct_name'] ?>
+                        <?php echo $arr['proudct_desc'] ?>
+                        <?php echo $arr['proudct_table_desc'] ?>
                     </div>
                 </div>
                 <!--產品細項區塊結束-->

@@ -599,10 +599,10 @@
                                 </div>
                                 <div class="card-footer border-top-0 bg-white">
                                     <a href="http://www.ahao850512.com/shining/category/product/product_test.php?id=1" class="btn btn-primary">more</a>
-                                <?php 
-                                    $var = '1';
-                                ?>
-                                <a class="btn btn-primary" href="<?php echo "product/product_test.php?id=".$var ?>">get</a>
+                                <?php
+$var = '1';
+?>
+                                <a class="btn btn-primary" href="<?php echo "product/product_test.php?id=" . $var ?>">get</a>
                                 </div>
                             </div>
                         </div>
@@ -715,7 +715,7 @@
                 <!--產品分類區塊結束-->
             </div>
     </section>
-    
+
 
 
 
