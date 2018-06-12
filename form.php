@@ -15,7 +15,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <form class="form_test" id="ga_test" method="post" action="insert.php">
 	文章標題: <input name="title"><br>
-	內文
+ 	內文
 	<textarea name="content"></textarea><br>
 	<button class="btn" type="submit">送出</button>
 </form>

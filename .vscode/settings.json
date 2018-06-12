@@ -1,7 +1,3 @@
 {
-    "php.validate.executablePath": "D:\\Appserv\\php7\\php.exe",
-    "php.executablePath": "D:\\Appserv\\php7\\php.exe",
-    "phpfmt.php_bin": "D:\\Appserv\\php7\\php.exe",
-    "tfvc.restrictWorkspace": true,
-    "tfvc.location": "D:\\Visual Studio 2017\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
+    "git.ignoreLimitWarning": true
 }
