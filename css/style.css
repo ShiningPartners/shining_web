@@ -295,3 +295,45 @@ td {
 }
 
 /*常見問題結束*/
+
+/* 表單開始 */
+
+#form_body {
+    font-family: 'Microsoft JhengHei';
+    background-color: white;
+    color: gray;
+    margin: 20px;
+}
+
+#form_3 ul li{
+    list-style: none;
+}
+
+.description{
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    font-weight: 900;
+}
+
+#form_body textarea.textarea{
+background: #f0f0f0;
+    border-bottom: 1px solid #c0c0bf;
+    border-left: 1px solid #e4e4e2;
+    border-right: 1px solid #e4e4e2;
+    border-top: 1px solid #e4e4e2;
+    color: #9f9f9f;
+    font-family: "Open Sans", "微軟正黑體", Arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 4px;
+    width: 99%;
+}
+
+.element text large{
+    width: 200px;
+}
+
+.required{
+    color: red;
+}
+/* 表單結束 */

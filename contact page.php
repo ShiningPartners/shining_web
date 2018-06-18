@@ -623,29 +623,7 @@
                                             </p>
                                         </div>
                                         <!--表單開始-->
-                                        <!-- GA標籤狀態沒收到(可能內遷問題) -->
-                                        <form id="form1" name="form1" method="post" action="sendmail.php">
-                                            <fieldset>
-                                                <legend>留言給我們</legend>
-                                                <label>您的大名：</label>
-                                                <input id="C_name" name="C_name" type="text" />
-                                                <br />
-
-                                                <label>您的Email：</label>
-                                                <input id="C_email" name="C_email" type="text" />
-                                                <br />
-
-                                                <label>您的電話號碼：</label>
-                                                <input id="C_tel" name="C_tel" type="text" />
-                                                <br />
-
-                                                <label>您的寶貴意見：</label>
-                                                <textarea id="C_message" name="C_message"></textarea>
-                                                <br />
-
-                                                <input id="submit" name="submit" type="submit" value="確定送出" />
-                                            </fieldset>
-                                        </form>
+                                        <iframe id="inqframe" height="1391" allowtransparency="true" frameborder="0" scrolling="no" style="width: 100%; border: none; height: 1518px;" src="../shining/form.php" title="聯絡我們">聯絡我們</a></iframe>
                                         <!--表單結束-->
                                     </div>
                                     <div class="col-md-4">
