@@ -13,17 +13,12 @@
 
 <body id="form_body" class="embed">
 	<div class="container" id="form_container">
-		<h1>
-			<a>聯絡我們</a>
-		</h1>
-		<hr>
-		<form id="form_3" class="appnitro" enctype="multipart/form-data" method="post" action="#main_body">
-			<div class="form_description">
-				<h2>聯繫表單</h2>
-				<p>請填寫一下表單，留下您清楚的訊息，我們會立即與您聯繫 For we can provide you a better service, please fill in all * fields below.</p>
-			</div>
+		<form id="form_3" class="appnitro" enctype="multipart/form-data" method="post" action="form_submit.php">
 			<ul>
-
+				<div class="form_description">
+					<h2>聯繫表單</h2>
+					<p>請填寫一下表單，留下您清楚的訊息，我們會立即與您聯繫 For we can provide you a better service, please fill in all * fields below.</p>
+				</div>
 				<li id="li_17">
 					<label class="description" for="element_17">標題 Subject
 						<span id="required_17" class="required">*</span>
@@ -46,7 +41,7 @@
 						<small>請完整描述您本次的需求內容 Please write down your specific requirements or tell us details about your needs here.</small>
 					</p>
 				</li>
-				<li id="li_20">
+				<!-- <li id="li_20">
 					<label class="description" for="element_20">附件上傳 Upload a File
 						<small>(大小限制:10mb)</small>
 					</label>
@@ -56,7 +51,7 @@
 					<p class="guidelines" id="guide_20">
 						<small>您可以上傳一個附件，例如圖檔。 If you have your request in a file, then you can simply upload a file to us directly.</small>
 					</p>
-				</li>
+				</li> -->
 				<li id="li_19" class="section_break">
 					<h3>聯絡資料 Contact Information</h3>
 					<p></p>
@@ -353,13 +348,14 @@
 					<label class="description">聯絡人 Contact Name
 						<span id="required_1" class="required">*</span>
 					</label>
+					<br>
 					<span>
-						<input id="element_1_1" name="element_1_1" class="element text" maxlength="255" size="8" value="" />
-						<label>First</label>
+						<input id="element_1_1" name="element_1_1" class="element text" maxlength="255" size="8" placeholder="First Name" value=""
+						/>
 					</span>
 					<span>
-						<input id="element_1_2" name="element_1_2" class="element text" maxlength="255" size="14" value="" />
-						<label>Last</label>
+						<input id="element_1_2" name="element_1_2" class="element text" maxlength="255" size="14" placeholder="Last Name" value=""
+						/>
 					</span>
 					<p class="guidelines" id="guide_1">
 						<small>請留下您的大名 Please enter contact person's name here.</small>
